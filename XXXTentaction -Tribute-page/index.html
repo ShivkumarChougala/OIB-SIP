@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XXXTentacion Tribute Page | FCC</title>
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome kit -->
+
+    <script
+      src="https://kit.fontawesome.com/4d63ed8f35.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!---- favicon ---->
+
+    <link
+      rel="shortcut icon"
+      href="./assets/hero/logo-favi.svg"
+      type="image/x-icon"
+    />
+
+    <!-- styles -->
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <link rel="stylesheet" href="css/counter.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="off__canvas-overlay"></div>
+      <nav>
+        <div class="nav__container">
+          <div class="nav__logo">
+            <a href="#header">XXXTentacion</a>
+          </div>
+          <!---- Menu ---->
+          <div class="nav__menu">
+            <!---- Close Menu ---->
+
+            <!-- <div class="nav__close">
+              <i class="fas fa-times"></i>
+            </div> -->
+            <ul>
+              <li>
+                <a href="#biography" class="biography__section">biography</a>
+              </li>
+              <li>
+                <a href="#life__section" class="life__section">Early life</a>
+              </li>
+              <li>
+                <a href="#music" class="music__section">Musical style</a>
+              </li>
+              <li><a href="#legacy" class="legacy__section">Legacy</a></li>
+            </ul>
+
+            <!---- Burguer Menu social links ---->
+            <div class="burguer__social">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/BadVibezForever/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/xxxtentacion/?hl=en" target="_blank">
+                    <i class="fab fa-instagram-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/xxxtentacion?lang=en" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/@xxxtentacion"
+                    target="_blank"
+                  >
+                    <i class="fab fa-youtube-square"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!---- social links ---->
+          <div class="nav__social">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/BadVibezForever/" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/xxxtentacion/?hl=en" target="_blank">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/xxxtentacion?lang=en" target="_blank">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/@xxxtentacion"
+                  target="_blank"
+                >
+                  <i class="fab fa-youtube-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!---- Burguer Menu ---->
+          <div class="nav__burguer">
+            <div class="nav__burguer-line-1"></div>
+            <div class="nav__burguer-line-2"></div>
+            <div class="nav__burguer-line-3"></div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="hero__container">
+          <div class="hero__container-content">
+            <!---- left side ---->
+            <div class="hero__text">
+              <h1 class="hero__title">xxxtentacion</h1>
+              <p class="hero__description">
+                Jahseh Dwayne Ricardo Onfroy was born on January 23, 1998, in Plantation, Florida, to Jamaican parents, Dwayne Ricardo Onfroy and Cleopatra Eretha Dreena Bernard. His father named him after the Bob Marley song "So Jah Seh", which interpolates Ezekiel 34. Both Onfroy's father and grandfather were Rastafarians.
+              </p>
+              <div class="vector__icons">
+                <ul>
+                  <li class="vector__icons-img">
+                    <img
+                      src="assets/hero/hero_icon_1.png"
+                      alt="vector icon 1"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="assets/hero/hero_icon_2.png"
+                      alt="vector icon 2"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="assets/hero/hero_icon_3.png"
+                      alt="vector icon 3"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="assets/hero/hero_icon_4.png"
+                      alt="vector icon 4"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="assets/hero/hero_icon_5.png"
+                      alt="vector icon 5"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!---- right side ---->
+            <div class="hero__image">
+              <img src="assets/hero/profile_photo-draw.jpg" alt="hero" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!---- BIOGRAPHY SECTION ---->
+
+    <main>
+      <section class="biography" id="biography">
+        <div class="icon__float-1">
+          <img
+            src="assets/biography/headphone_icon_150px.png"
+            alt="headphone float icon"
+          />
+        </div>
+        <div class="title__container">
+          <h1 class="biography__title">biography</h1>
+          <h2 class="biography__subtitle">xxxtentacion</h2>
+        </div>
+        <div class="biography__container">
+          <!---- top side ---->
+          <div class="biography__text">
+            <p class="biography__description">
+              <strong>¿Jahseh Dwayne Ricardo Onfroy?</strong><br />
+              Jahseh Dwayne Ricardo Onfroy (January 23, 1998 – June 18, 2018), known professionally as XXXTentacion,[c] (English: /ɛksɛksɛksˌtɛntəsˈjoʊn/ eks-eks-eks-TEN-təss-YOHN[14] Spanish pronunciation: [tentaˈθjon]) was an American rapper and singer-songwriter.[15][16] Though a controversial figure due to his widely publicized legal troubles, XXXTentacion gained a cult following among his young fanbase during his short career with his depression- and alienation-themed music. Critics and fans often credit him for his musical versatility, with his music exploring emo, trap, trap metal, nu metal, indie rock, lo-fi, hip hop, R&B, and punk rock. He was considered to be a leading figure in the establishment of the emo rap and SoundCloud rap genres, which garnered mainstream attention during the mid-to-late 2010s.
+          
+            </p>
+            <p class="biography__color">
+              <a
+                href="https://en.wikipedia.org/wiki/XXXTentacion"
+                target="_blank"
+                >More about XXXTentacion's biography...</a
+              >
+            </p>
+            <!---- bottom side ---->
+          </div>
+          <div class="biography__image">
+            <div class="biography__image-card">
+              <img
+                src="assets/biography/XXXT1.jpg"
+                alt="biography-1"
+              />
+            </div>
+            <div class="biography__image-card">
+              <img
+                src="assets/biography/XXXT3.jpg"
+                alt="biography-2"
+              />
+            </div>
+            <div class="biography__image-card">
+              <img
+                src="assets/biography/XXX#.jpg"
+                alt="biography-3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---- LIFE SECTION ---->
+
+      <section class="life" id="life__section">
+        <div class="icon__float-2 microphone__icon">
+          <img
+            src="assets/personal_life/microphone_icon_150px.png"
+            alt="microphone float icon"
+          />
+        </div>
+        <div class="life__container">
+          <div class="title__container">
+            <h1 class="biography__title">Early life</h1>
+            <h2 class="biography__subtitle">XXXTentacion</h2>
+          </div>
+          <div class="biography__container">
+            <!---- top side ---->
+            <div class="biography__text">
+              <p class="biography__description">
+                When Onfroy was a child, he discovered his uncle's deceased body after the man committed suicide by hanging.[47] Onfroy referenced his trauma from the incident in multiple songs. In 2017, Onfroy alluded that he had been sexually abused by an unnamed adult when he was a child.[47] Other traumatic events that Onfroy witnessed as a child included someone being physically tortured and someone being raped.[48] According to Onfroy's mother, he was routinely beaten by his father as a child; she claimed that Onfroy's father tried to hit her in front of Onfroy on several occasions. In early 2008, when Onfroy was ten, his father was jailed for nine years in Arizona on RICO charges after the Drug Enforcement Administration organized a sting operation.[49] Onfroy's father was released from BOP custody on October 30, 2015,[50] and deported to Jamaica in late 2016.[51] In a 2017 interview, when asked about his relationship with his father, Onfroy sarcastically asked, "What's a father?.
+                
+              </p>
+              <p class="biography__color">
+                <a
+                  href="https://en.wikipedia.org/wiki/XXXTentacion#Early_life"
+                  target="_blank"
+                  >More about XXXTentacion's Early life...</a
+                >
+              </p>  
+            </div>
+            <div class="biography__image life-biography">
+              <div class="biography__image-card life-image">
+                <img
+                  src="assets/personal_life/xxxGirlfriend.jpg"
+                  alt="life-1"
+                />
+              </div>
+              <div class="biography__image-card life-image">
+                <img
+                  src="assets/personal_life/XXXPERSONAL.jpg"
+                  alt="life-2"
+                />
+              </div>
+              <div class="biography__image-card life-image">
+                <img
+                  src="assets/personal_life/XXXDAD.jpg"
+                  alt="life-3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---- MUSIC SECTION ---->
+
+      <section class="music" id="music">
+        <div class="icon__float-1 icon__float-3">
+          <img src="assets/music/audio_icon_150px.png" alt="audio float icon" />
+        </div>
+        <div class="title__container">
+          <h1 class="biography__title">Musical style </h1>
+          <h2 class="biography__subtitle">XXXTentacion</h2>
+        </div>
+        <div class="biography__container">
+          <!---- top side ---->
+          <div class="biography__text">
+            <p class="biography__description">
+              When speaking of his influencers, XXXTentacion said, "I'm really into multi-genre things that aren't just based around rapping itself. I'm more inspired by artists in other genres besides rap."[177] XXXTentacion as an artist has been defined as versatile[178] and his music has been described as having a "lo-fi" aesthetic,[179] being diverse[180] and experimental, drawing influence from heavy metal.[181] His music also has the tendency to contain distorted bass[182] and an "intentional lack of polish".[18] Speaking about this, XXXTentacion said that the intentionally bad mixing on his tracks make it "genuine".[183] Some fans have also noted that his music has inspired many up-and-coming artists, such as Juice Wrld and Trippie Redd, into channeling similar aesthetics into their music, with the former dedicating the song "Legends" to XXXTentacion following his death.
+            </p>
+            <p class="biography__color">
+              <a
+                href="https://en.wikipedia.org/wiki/XXXTentacion#Musical_style"
+                target="_blank"
+                >More about XXXTentacion's Musical style...</a
+              >
+            </p>
+            <hr />
+            
+      </section>
+
+      <!---- BANNER SECTION ---->
+      <section class="banner__bg-image">
+        <div class="banner__bg-image-content">
+          <h1 class="banner__bg-image-title">
+            "People always leave. Don't get too attached"
+          </h1>
+          <h2 class="banner__bg-image-subtitle">XXXTentacion.</h2>
+        </div>
+      </section>
+
+      <!---- LEGACY SECTION ---->
+
+      <section class="legacy" id="legacy">
+        <div class="icon__float-2">
+          <img
+            src="assets/legacy/cassete_icon_150px.png"
+            alt="cassete float icon"
+          />
+        </div>
+        <div class="icon__float-1">
+          <img
+            src="assets/legacy/music_note_icon_150px.png"
+            alt="music note float icon"
+          />
+        </div>
+        <div class="title__container">
+          <h1 class="biography__title">Legacy</h1>
+          <h2 class="biography__subtitle">XXXTentacion</h2>
+        </div>
+        <div class="biography__container">
+          <!---- top side ---->
+          <div class="biography__text">
+            <p class="biography__description">
+              XXXTentacion's music was driven on themes revolving around depression and alienation,[378] becoming known for his "depressing, and at times devastating"[26] music that brought attention to mental health.[379] He employed styles and techniques that were unconventional in hip hop during his career, such as distortion[380] and heavy guitar-backed instrumentals drawing inspiration from third-wave emo.[381]
+              
+            </p>
+            <p class="biography__color">
+              <a
+                href="https://en.wikipedia.org/wiki/XXXTentacion#Legacy"
+                target="_blank"
+                >More about the legacy and memory of XXXTentacion...</a
+              >
+            </p>
+          </div>
+          <div class="biography__image legacy-biography">
+            <div class="biography__image-card legacy-image">
+              <img src="assets/legacy/xxxStatue.jpg" alt="legacy-1" />
+              <div class="biography__image-card-modal legacy__modal-1">
+                <h4>XXXTentacion</h4>
+                <span>XXXTentacion's Statue</span>
+              </div>
+            </div>
+            <div class="biography__image-card legacy-image">
+              <img src="assets/legacy/XXXGRAVE.webp" alt="legacy-2" />
+              <div class="biography__image-card-modal legacy__modal-2">
+                <h4>XXXTentacion</h4>
+                <span>Gravesite</span>
+              </div>
+            </div>
+            <div class="biography__image-card legacy-image">
+              <img src="assets/legacy/xxxxxx.webp" alt="legacy-3" />
+              <div class="biography__image-card-modal legacy__modal-3">
+                <h4>XXXTentacion</h4>
+                <span>Memorial of xxxtentacion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-----Top Button ----->
+      <a class="top" href="#header"
+        ><div class="top__button">
+          <i class="fas fa-arrow-up"></i></div
+      ></a>
+
+      <!---- FOOTER SECTION ---->
+      <footer class="footer">
+        <div class="footer__text">
+          <p>
+            Copyright © 2024 | Coded with
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            by
+            <a
+              href="https://github.com/ShivkumarChougala"
+              target="_blank"
+            >
+              ShivkumarChougala
+            </a>
+          </p>
+        </div>
+    
+      </footer>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
